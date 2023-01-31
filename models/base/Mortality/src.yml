@@ -1,0 +1,11 @@
+version: 2
+models:
+- name: base__lemedian_l1
+  description: 'Staging of the LEMEDIAN_L1 dataset'
+  docs:
+    node_color: '#829356'
+  config:
+    tags:
+    - Base
+    - Mortality
+ 

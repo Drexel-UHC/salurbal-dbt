@@ -1,0 +1,11 @@
+version: 2
+models:
+- name: base__apsl1ad
+  description: 'Staging of the LEMEDIAN_L1 dataset'
+  docs:
+    node_color: '#829356'
+  config:
+    tags:
+    - Base
+    - Physical Natural Environment
+ 
