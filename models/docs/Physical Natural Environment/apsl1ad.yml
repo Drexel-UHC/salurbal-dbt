@@ -1,0 +1,98 @@
+version: 2
+sources:
+- name: Physical Natural Environment
+  tags:
+  - Physical Natural Environment
+  - Source
+  
+  description: 'The physical and natural environment domain captures hazardous environmental exposures as well as features of built environments and natural environments.'
+  meta:
+    external_location: \\files.drexel.edu\colleges\SOPH\Shared\UHC\Projects\Wellcome_Trust\Data Methods Core\Dashboards\dbt\v0\sources\{name}.parquet
+  tables:
+  - name: APSL1AD
+    description: Air Pollution dataset level information goes here. To convert pdf/word to markdown via pandoc to populate this. Or scrape manually.
+    columns:
+    - name: var_name_raw
+      type: string
+      description: '{{ doc("salurbal_var_name_raw") }}'
+    - name: var_name
+      type: string
+      description: '{{ doc("salurbal_var_name") }}'
+    - name: iso2
+      type: string
+      description: '{{ doc("salurbal_iso2") }}'
+    - name: strata_id
+      type: string
+      description: '{{ doc("salurbal_strata_id") }}'
+    - name: geo
+      type: string
+      description: '{{ doc("salurbal_geo") }}'
+    - name: salid
+      type: string
+      description: '{{ doc("salurbal_salid") }}'
+    - name: year
+      type: string
+      description: '{{ doc("salurbal_year") }}'
+    - name: value
+      type: string
+      description: '{{ doc("salurbal_value") }}'
+    - name: dataset_id
+      type: string
+      description: '{{ doc("salurbal_dataset_id") }}'
+    - name: domain
+      type: string
+      description: '{{ doc("salurbal_domain") }}'
+    - name: subdomain
+      type: string
+      description: '{{ doc("salurbal_subdomain") }}'
+    - name: var_label
+      type: string
+      description: '{{ doc("salurbal_var_label") }}'
+    - name: var_def
+      type: string
+      description: '{{ doc("salurbal_var_def") }}'
+    - name: value_type
+      type: string
+      description: '{{ doc("salurbal_value_type") }}'
+    - name: units
+      type: string
+      description: '{{ doc("salurbal_units") }}'
+    - name: coding
+      type: string
+      description: '{{ doc("salurbal_coding") }}'
+    - name: strata_description
+      type: string
+      description: '{{ doc("salurbal_strata_description") }}'
+    - name: source
+      type: string
+      description: '{{ doc("salurbal_source") }}'
+    - name: dataset_notes
+      type: string
+      description: '{{ doc("salurbal_dataset_notes") }}'
+    - name: limitations
+      type: string
+      description: '{{ doc("salurbal_limitations") }}'
+    - name: acknowledgements
+      type: string
+      description: '{{ doc("salurbal_acknowledgements") }}'
+    - name: file_data
+      type: string
+      description: '{{ doc("salurbal_file_data") }}'
+    - name: file_codebook
+      type: string
+      description: '{{ doc("salurbal_file_codebook") }}'
+    - name: longitudinal
+      type: string
+      description: '{{ doc("salurbal_longitudinal") }}'
+    - name: public
+      type: string
+      description: '{{ doc("salurbal_public") }}'
+    - name: censor
+      type: string
+      description: '{{ doc("salurbal_censor") }}'
+    - name: license
+      type: string
+      description: '{{ doc("salurbal_license") }}'
+    - name: fair
+      type: string
+      description: '{{ doc("salurbal_fair") }}'
