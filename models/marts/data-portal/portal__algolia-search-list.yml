@@ -1,0 +1,9 @@
+version: 2
+models:
+- name: portal__algolia-search-list
+  description:  This table will feed into algolia's search.json to power the search engine on the data portal. 
+  docs:
+    node_color: '#6f3585'
+  config:
+    tags:
+    - Data Portal

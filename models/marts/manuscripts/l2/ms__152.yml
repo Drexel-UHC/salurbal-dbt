@@ -1,6 +1,6 @@
 version: 2
 models:
-- name: ms152
+- name: ms__152
   description:  This paper will examine the relationship between life expectancy and air pollution the neighborhood level
   docs:
     node_color: '#9A2617'

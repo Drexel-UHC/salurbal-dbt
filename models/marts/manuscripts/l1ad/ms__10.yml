@@ -1,6 +1,6 @@
 version: 2
 models:
-- name: ms10
+- name: ms__10
   description:  This paper will examine the relationship between life expectancy and air pollution.
   docs:
     node_color: '#9A2617'
